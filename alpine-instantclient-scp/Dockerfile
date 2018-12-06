@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-glibc:alpine-3.8_glibc-2.28
+FROM fanjian/alpine-instantclient:alpine-3.8_client-12.1
 
 RUN apk update \
     && apk upgrade \
